@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="http://fe.it-academy.by/JQ/jquery.js"></script>
+</head>
+<body>
+    <div class="gameBox">
+        <div class="scoreBoard"></div>
+        <div class="startBox">
+            <div id="startBoxText">
+              <h2>Гонка</h2>
+              <p>Обгони болиды соперников, избегая столкновений, и побей рекорд, продвинувшись по трассе как можно дальше</p>
+            </div>
+            <div id="buttonBox">
+                <p>Выберите уровень сложности для начала игры</p>
+                <button id="easy" class="button">начальный</button>
+                <button id="normal" class="button">средний</button>
+                <button id="difficult" class="button">продвинутый</button>  
+            </div>
+        </div>
+        <button class="right controlButton hide"></button>
+        <button class="left controlButton hide"></button>
+        <button class="up controlButton hide"></button>
+        <button class="down controlButton hide"></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
